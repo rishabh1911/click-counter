@@ -5,7 +5,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-     <div> This div has been clicked {this.props.clickCounter} times</div>
+     <div onClick={this.props.clickEvent}> This div has been clicked {this.props.clickCounter} times</div>
     );
   }
 }
